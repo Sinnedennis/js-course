@@ -21,6 +21,13 @@ const isBoolean = function (a) {
     console.log(`Was not passed a bool :(`);
 }
 
+const handleFunction = function (a) {
+    if (typeof a === "function") {
+        return console.log(`Received a function :)`);
+    };
+    console.log(`Was not passed a function :(`)
+}
+
 const handleUndefined = function (a) {
     if (typeof a === "undefined") {
         return console.log(`Received undefined. Handling error correctly :)`);
@@ -42,4 +49,4 @@ const handleNaN = function (a) {
     console.log(`Was not passed NaN :(`);
 }
 
-module.exports = { squareRoot, flipString, isBoolean, handleUndefined, handleNull, handleNaN };
+module.exports = { squareRoot, flipString, isBoolean, handleFunction, handleUndefined, handleNull, handleNaN };

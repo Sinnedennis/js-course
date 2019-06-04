@@ -17,6 +17,8 @@ function declaringAndDefining () {
     // console.log("myFirstVariable value is ", myFirstVariable, " of type ", typeof myFirstVariable);
 };
 
+
+
 function sloppyCode () {
     //'use strict';
     undeclaredVariable = "this is bad practice";
@@ -31,6 +33,8 @@ function sloppyCode () {
     // console.log(badLinting)
 };
 
+
+
 function letAndConst () {
     const CONSTANT = 365;
     console.log(CONSTANT);
@@ -38,6 +42,8 @@ function letAndConst () {
     // CONSTANT = 100;
     // console.log(CONSTANT);
 };
+
+
 
 function whenThingsGoWrong () {
 

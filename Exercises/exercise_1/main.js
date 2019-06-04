@@ -1,5 +1,5 @@
 "use strict";
-const { squareRoot, flipString, isBoolean, handleUndefined, handleNull, handleNaN } = require('./exercise_1_methods.js');
+const { squareRoot, flipString, isBoolean, handleFunction, handleUndefined, handleNull, handleNaN } = require('./methods.js');
 /**
  * 
  * The method findDataType will be called with a number of different primitive data types. 
@@ -16,6 +16,9 @@ function findDataType (unknown) {
 
     //For bool
     //isBoolean(unknown);
+
+    //For functions
+    // handleFunction(unknown);
 
     //For undefined
     //handleUndefined(unknown);
