@@ -63,4 +63,8 @@ function whenThingsGoWrong () {
     // var iAmNan = 20 * "melon";
     // console.log(iAmNan);
     // console.log(typeof iAmNan);
+    // console.log(undefined === undefined);
+    // console.log(null === null);
+    // console.log(iAmNaN === iAmNaN);
+    // console.log(iAmNaN === NaN);
 }
