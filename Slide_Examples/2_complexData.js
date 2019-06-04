@@ -15,6 +15,11 @@ var exampleArray = [0, 1, 2, 3, 4, 5];
 exampleArray.push(6);
 exampleArray.pop();
 
+for (var i = 0; i < exampleArray.length; i++) {
+    console.log(exampleArray[i]);
+    break;
+};
+
 
 //ES6 Methods
 var exampleArray = [0, 1, 2, 3, 4, 5];
