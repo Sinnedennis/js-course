@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const { reverseArray, getEveryOtherItem, concatArrays } = require("../arrays.js");
+const { reverseArray, getEveryOtherItem, concatArrays } = require("../arrays_advanced.js");
 
 describe('reverseArray', () => {
     it ('should exist', () => {
