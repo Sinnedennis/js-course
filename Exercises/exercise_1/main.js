@@ -28,8 +28,6 @@ function findDataType (unknown) {
 
     //For NaN
     //handleNaN(unknown);
-
-    console.log();
 };
 
 module.exports = { findDataType };
