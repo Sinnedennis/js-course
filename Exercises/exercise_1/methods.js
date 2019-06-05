@@ -36,7 +36,7 @@ const handleUndefined = function (a) {
 }
 
 const handleNull = function (a) {
-    if (typeof a === "null") {
+    if (a === null) {
         return console.log(`Received null. Handling error correctly :)`);
     };
     console.log(`handleNull was not passed null :(`);

@@ -6,28 +6,46 @@ const { squareRoot, flipString, isBoolean, handleFunction, handleUndefined, hand
  * Figure out what data type is given and pass it to the appropriate function. 
  * 
  */
+console.log(typeof findDataType);
 function findDataType (unknown) {
 
+    // console.log("I am being called with " + unknown)
+    
     //For numbers
-    //squareRoot(unknown);
+    if ( typeof unknown === "number" && Number.isNaN(unknown) === false ) {        
+        squareRoot(unknown);
+    }
 
     //For strings
-    //flipString(unknown);
+    if (typeof unknown === "string") {
+        flipString(unknown);
+    }
 
     //For bool
-    //isBoolean(unknown);
+    if ( typeof unknown === "boolean" ) {
+        isBoolean(unknown);
+    }
 
     //For functions
-    // handleFunction(unknown);
+    if ( typeof unknown === "function" ) {
+        handleFunction(unknown);
+    }
 
     //For undefined
-    //handleUndefined(unknown);
-
+    if ( typeof unknown === "undefined") {
+        handleUndefined(unknown);
+    }
+        
     //For null
-    //handleNull(unknown);
+    if ( unknown === null ) {
+        handleNull(unknown);
+    }
 
     //For NaN
-    //handleNaN(unknown);
+    if ( Number.isNaN(unknown)) {
+        Math.sqrt()
+        handleNaN(unknown);
+    }
 };
 
 module.exports = { findDataType };

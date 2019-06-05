@@ -4,10 +4,7 @@ var targetObj = {
 };
 
 //Log out the value "hello_world_1";
-console.log();
-
-
-
+console.log(targetObj.key);
 
 
 
@@ -20,7 +17,7 @@ targetObj = {
 };
 
 //Log out the value "hello_world_2";
-console.log();
+console.log(targetObj.key.banana.onePlus7Pro);
 
 
 
@@ -36,7 +33,7 @@ targetObj = {
 };
 
 //Log out the value "hello_world_3";
-console.log();
+console.log(targetObj.orange.pancake());
 
 
 
@@ -48,7 +45,7 @@ targetObj = {
 };
 
 //Log out the value "hello_world_4";
-console.log();
+console.log(targetObj.key[0]);
 
 
 
@@ -58,7 +55,7 @@ console.log();
 var targetObj = {
     option1: {
         banana : function (isCorrect) {
-            return isCorrect ? "ha ha" : {
+            return isCorrect === false ? "ha ha" : {
                 andAnotherOne : {
                     key: "hello_world_5"
                 }
@@ -68,4 +65,4 @@ var targetObj = {
 };
 
 //Log out the value "hello_world_5";
-console.log();
+console.log(targetObj.option1.banana(false).andAnotherOne.key);
