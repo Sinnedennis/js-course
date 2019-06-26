@@ -58,7 +58,7 @@ console.log();
 var targetObj = {
     option1: {
         banana : function (isCorrect) {
-            return isCorrect ? "ha ha" : {
+            return isCorrect === false ? "ha ha" : {
                 andAnotherOne : {
                     key: "hello_world_5"
                 }
