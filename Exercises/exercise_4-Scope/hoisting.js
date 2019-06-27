@@ -21,11 +21,15 @@
 
 
 
-function realWorldExample () {
-    console.log(`The value for "p" is ${p}`);
+function anotherFunction () {
+
+    
 
     var apiUrl = "https://freeIphones.com/api/getiPhone";
 
+    var nestedFunction = function() {
+        console.log("I am a nested function!");
+    };
 };
 
 
