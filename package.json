@@ -2,7 +2,7 @@
   "name": "js-course",
   "version": "1.0.0",
   "scripts": {
-    "test": "mocha ./Exercises/exercise_2/spec/arrays_advanced_spec.js",
+    "test": "mocha ./Exercises/exercise_2-Complex/spec/array_katas_spec.js",
     "precommit": "npm test"
   },
   "repository": {

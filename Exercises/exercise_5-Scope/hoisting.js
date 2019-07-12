@@ -7,6 +7,14 @@
 
 
 
+// var x;
+
+// console.log(`The value for "x" is ${x}`);
+
+// x = "pineapple Pie";
+
+
+
 // console.log("aFunction() says: ", aFunction());
 
 // function aFunction () {
@@ -22,14 +30,9 @@
 
 
 function anotherFunction () {
-
-    
-
     var apiUrl = "https://freeIphones.com/api/getiPhone";
 
     var nestedFunction = function() {
         console.log("I am a nested function!");
     };
 };
-
-

@@ -1,4 +1,10 @@
 
+function imitationApi(cb) {
+    setTimeout(function(){
+        cb(null, []);
+    })
+}
+
 
 function getLocalPizzaShops (cb) {
     setTimeout(function () {
