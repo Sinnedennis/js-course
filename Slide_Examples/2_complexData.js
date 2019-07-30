@@ -10,64 +10,73 @@ var listOfObjects = [
     { colour: "brown", price: 20, topSpeed: 42 },
 ];
 
-//Basic array methods
-var exampleArray = [0, 1, 2, 3, 4, 5];
-exampleArray.push(6);
-exampleArray.pop();
-
-for (var i = 0; i < exampleArray.length; i++) {
-    console.log(exampleArray[i]);
-    break;
-};
-
-
-//ES6 Methods
-var exampleArray = [0, 1, 2, 3, 4, 5];
-exampleArray.forEach(); 
-exampleArray.map(); 
-exampleArray.filter(); 
-exampleArray.reduce(); 
-exampleArray.some();
 
 
 
-//Object examples
-var exampleObj = {
-    key: "value",
-    anotherKey: "value",
-    anotherObj : { yetAnotherObj: { hello : "world" } },
-    anArray : ["anything", "can", "go", "in", "anything"],
-};
+// //Basic array methods
+// var exampleArray = [0, 1, 2, 3, 4, 5];
+// console.log(exampleArray);
 
-console.log(exampleObk.anotherObj.yetAnotherObj.hello);
+// exampleArray.push(6);
+// console.log(exampleArray);
+
+// exampleArray.pop();
+// console.log(exampleArray);
+
+// for (var i = 0; i < exampleArray.length; i++) {
+//     console.log(exampleArray[i]);
+//     break;
+// };
+
+
+
+
+
+// //Object examples
+// var exampleObj = {
+//     key: "value",
+//     anotherKey: "value",
+//     anotherObj : { yetAnotherObj: { hello : "world" } },
+//     anArray : ["anything", "can", "go", "in", "anything"],
+// };
+//
+// console.log(exampleObj.anotherObj.yetAnotherObj.hello);
 // console.log(exampleObk.anotherObj.yetAnotherObj.banana);
 // console.log(exampleObk.anotherObj.yetAnotherObj.banana.orange);
 
-//How to access object properties
-var car = { colour: "blue", price: 20000, topSpeed: 135 };
-console.log(car.colour);
-console.log(car["colour"]);
-var propertyToLog = "colour";
-console.log(car[propertyToLog]);
 
 
-//Functions
-function exampleFunc () {
-    console.log("Do I log first?");
-}
-var banana = exampleFunc;
-console.log("Or do I log second?")
-banana();
 
-var arrayOfFunc = [exampleFunc, exampleFunc, exampleFunc];
 
-function nonAnonFunc (func) {
-    func();
-}
-arrayOfFunc.forEach(nonAnonFunc);
+// //How to access object properties
+// var car = { colour: "blue", price: 20000, topSpeed: 135 };
+// console.log(car.colour);
+// console.log(car["colour"]);
+// var propertyToLog = "colour";
+// console.log(car[propertyToLog]);
 
-arrayOfFunc.forEach(function (func) {
-    func();
-});
 
-arrayOfFunc.forEach(func => func());
+
+
+
+// //ES6 Methods
+// var exampleArray = [0, 1, 2, 3, 4, 5];
+// exampleArray.forEach(); 
+// exampleArray.map(); 
+// exampleArray.filter(); 
+// exampleArray.reduce(); 
+// exampleArray.some();
+
+
+
+
+
+// //Functions
+// function exampleFunc () {
+//     console.log("Do I log first?");
+// };
+
+// var banana = exampleFunc;
+// console.log("Or do I log second?")
+
+// banana();
